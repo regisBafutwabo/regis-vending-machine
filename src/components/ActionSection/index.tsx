@@ -1,3 +1,4 @@
+// This component handles the action buttons for the vending machine
 'use client';
 import { useVendingStore } from '@/store/vendingStore';
 

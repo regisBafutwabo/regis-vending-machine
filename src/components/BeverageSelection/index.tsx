@@ -1,3 +1,4 @@
+// This component handles the product selection interface
 'use client';
 
 import { useInventoryStore } from '@/store/inventoryStore';

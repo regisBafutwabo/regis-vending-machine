@@ -1,3 +1,4 @@
+// This component handles the payment selection interface
 'use client';
 import { useUserCardStore } from '@/store/userCardStore';
 import { useVendingStore } from '@/store/vendingStore';

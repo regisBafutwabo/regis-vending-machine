@@ -1,3 +1,4 @@
+// This store manages the inventory of beverages
 import { create } from 'zustand';
 
 import { Beverage } from '@/types';

@@ -1,5 +1,5 @@
+// This component displays the system status log
 'use client';
-
 import { useEffect, useRef, useState } from 'react';
 
 import { useVendingStore } from '@/store/vendingStore';

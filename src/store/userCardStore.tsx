@@ -1,3 +1,4 @@
+// This store manages the user's cards
 import { create } from 'zustand';
 
 import { PaymentCard } from '@/types';

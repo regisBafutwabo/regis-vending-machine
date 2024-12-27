@@ -1,3 +1,4 @@
+// This store manages the vending machine state
 import { create } from 'zustand';
 
 import { Beverage, PaymentCard, PaymentMethod, VendingStatus } from '@/types';
@@ -76,6 +77,7 @@ export const useVendingStore = create<VendingState>()((set, get) => ({
       status: 'PROCESSING...',
       timestamp: getTimestamp(),
     });
+    await new Promise((resolve) => setTimeout(resolve, 500));
 
     try {
       if (!selectedBeverage) {
