@@ -4,7 +4,7 @@
 A modern web-based vending machine application built with Next.js 15, TypeScript, and Tailwind CSS. The application simulates a real vending machine interface with product selection, payment processing, and system status monitoring.
 
 ### Diagram 
- ![Vending Machine Prototype Diagram](https://github.com/regisbafutwabo/regis-vending-machine/public/vending-machine-activity-diagram.png)
+ ![Vending Machine Prototype Diagram](https://github.com/regisBafutwabo/regis-vending-machine/blob/main/public/vending-machine-activity-diagram.png)
 ### Tech Stack
  - Framework: Next.js 15
  - Language: TypeScript
